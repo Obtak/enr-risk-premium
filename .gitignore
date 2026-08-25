@@ -1,0 +1,39 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tests et couverture
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Configuration locale
+.vscode/
+.env
+.env.*
+
+# Données privées ou volumineuses
+data/raw/*
+!data/raw/README.md
+
+data/processed/*
+!data/processed/README.md
+
+# Résultats calculés localement
+outputs/*
+!outputs/README.md
+
+# Fichiers temporaires
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+# Notebook exploratoire conservé localement
+notebooks/01_benchmark.py
